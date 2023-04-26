@@ -1,0 +1,115 @@
+:root {
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 60vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  height: 90px;
+  font-size: 1.4rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main {
+  background-color: white;
+  margin-top: 20px;
+  height: 60%;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.amount-bar {
+  background-color: orangered;
+  height: 24px;
+  width: 70%;
+}
+
+.wrapper {
+  position: absolute;
+  padding: 24px 36px;
+  border-top: 1px solid gray;
+}
+
+.project-info > p {
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+  display: block;
+}
+
+.project-info > p > span {
+  color: orangered;
+}
+
+.donation-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donation-input,
+.donation-submit {
+  font-size: 1.2em;
+  border: 1px solid gray;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  width: 45%;
+  height: 60px;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+
+.btn-success {
+  border: none;
+  color: #fff;
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: blue;
+  font-size: 1.2em;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  font-size: 1.2em;
+  border: 1px solid gray;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  width: 45%;
+  height: 60px;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+
+
