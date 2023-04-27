@@ -88,6 +88,10 @@ body {
   margin-bottom: 0.6em;
 }
 
+input[type="number"] {
+  appearance: textfield;
+}
+
 .btn-success {
   border: none;
   color: #fff;
